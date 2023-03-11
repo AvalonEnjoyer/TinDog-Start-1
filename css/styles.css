@@ -1,7 +1,9 @@
 /***********Tag Selectors***********/
+body {
+  font-family: "Montserrat-Black", sans-serif;
+}
 
 h1 {
-  font-family: "Montserrat-Black", sans-serif;
   font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
@@ -12,10 +14,23 @@ h1 {
   padding: 3% 15%;
 }
 
+.first-col {
+  margin-top: 100px;
+}
+
 .navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
   margin-left: 16px;
+}
+
+.title-image {
+  transform: rotate(25deg);
+  width: 70%;
 }
 /***********ID Selectors***********/
 #title {
   background-color: #ff4c68;
+  color: white;
 }
