@@ -87,6 +87,11 @@ h3 {
 .carousel-item {
   padding: 7% 15%;
 }
+
+/* Styling the pricing column */
+.pricing-column {
+  padding: 3% 2%;
+}
 /***********ID Selectors***********/
 /* Title section */
 #title {
@@ -116,5 +121,6 @@ h3 {
 
 /* Pricing section */
 #pricing {
+  padding: 100px;
   text-align: center;
 }
