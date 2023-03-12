@@ -16,17 +16,24 @@ h2 {
   line-height: 1.5;
 }
 h3 {
+  font-family: "Montserrat-Black", sans-serif;
   font-weight: Bold;
   font-size: 1.5rem;
 }
 /***********Class Selectors***********/
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 10%;
 }
 
+.title-image-box {
+  position: relative;
+  margin: 0;
+}
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  margin-left: 10%;
 }
 
 /* Navigation bar  */
@@ -92,6 +99,18 @@ h3 {
 .pricing-column {
   padding: 3% 2%;
 }
+
+/* cta styling */
+.cta-blurb {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* footer elements styling */
+.icon-footer {
+  margin: 20px 10px;
+}
 /***********ID Selectors***********/
 /* Title section */
 #title {
@@ -101,8 +120,10 @@ h3 {
 
 /* Features Section  */
 #features {
-  padding: 7% 15%;
+  padding: 7% 15% 2%;
+  background-color: #fff;
   text-align: center;
+  position: relative;
 }
 
 /* Testimonials Section */
@@ -123,4 +144,38 @@ h3 {
 #pricing {
   padding: 100px;
   text-align: center;
+}
+
+/* Call to Action (cta) section */
+#cta {
+  color: white;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/* Footer Section */
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+/* Media Query for Screen Resizing */
+@media (max-width: 1028px) {
+  .title-image-box {
+    position: static;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+
+  #features {
+    position: static;
+  }
+
+  #title {
+    text-align: center;
+  }
 }
